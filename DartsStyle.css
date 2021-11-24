@@ -19,11 +19,12 @@ body{
   grid-area: header; 
   font-variant: small-caps;
   text-align: center;
-  font-size: 200%;
+  font-size: 350%;
 }
 
 .nav { 
-  grid-area: nav; 
+  grid-area: nav;
+  color: #c9e2fa;
 }
 
 
