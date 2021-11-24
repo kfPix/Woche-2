@@ -19,7 +19,7 @@ body{
   grid-area: header; 
   font-variant: small-caps;
   text-align: center;
-  font-size: 10;
+  font-size: 25;
 }
 
 .nav { 
