@@ -20,6 +20,7 @@ body{
   font-variant: small-caps;
   text-align: center;
   font-size: 350%;
+  text-decoration: underline overline;
 }
 
 .nav { 
@@ -32,8 +33,6 @@ body{
 }
   
 h1{
-  text-decoration: underline;
-
 }
 
 a{ 
