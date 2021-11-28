@@ -1,11 +1,11 @@
 span{
     height: 50px;
-    width: 75px;
+    width: 49%;
     background-color: aquamarine;
     border-radius: 20%;
     border-style: double;
-    display: inline-block;
+    display: inline;
 }
 div{
-    
+
 }
