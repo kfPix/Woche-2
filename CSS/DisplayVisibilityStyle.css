@@ -1,10 +1,11 @@
 span{
+    /* inline default */
     height: 50px;
     width: 49%;
     background-color: aquamarine;
     border-radius: 20%;
     border-style: double;
-    display: inline;
+    display: block;
 }
 div{
     height: 50px;
@@ -22,14 +23,16 @@ p{
     background-color: rgb(179, 225, 233);
     border-radius: 20%;
     border-style: double;
-    display: table-cell;
+    /*display: table-cell;*/
     vertical-align: middle;
     text-align: center;
 }
 body{
-    display:table;
+    /*display:table;*/
     font-family: 'Courier New', Courier, monospace;
 }
 a{
-    /*display: inline;*/
+    width:40%;
+    background-color: cadetblue;
+    /* display: inline-block; */
 }
