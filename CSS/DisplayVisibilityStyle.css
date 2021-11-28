@@ -1,0 +1,31 @@
+span{
+    height: 50px;
+    width: 49%;
+    background-color: aquamarine;
+    border-radius: 20%;
+    border-style: double;
+    display: inline;
+}
+div{
+    height: 50px;
+    width: 49%;
+    background-color: rgb(204, 127, 255);
+    border-radius: 20%;
+    border-style: double;
+    display: inline-block;
+    text-align: center;
+}
+
+p{
+    height: 50px;
+    width: 49%;
+    background-color: rgb(179, 225, 233);
+    border-radius: 20%;
+    border-style: double;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+body{
+    display:table;
+}
