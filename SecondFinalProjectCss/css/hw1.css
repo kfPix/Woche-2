@@ -1,9 +1,27 @@
 /* Style the sheet using the properties color, background-color, text-align, text-transform, and/or display */
-span{
-    display: block;
+header{
+    background-color: rgb(180, 179, 179);
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align-last: center;
+}
+h2{
+    color: rgb(5, 5, 153);
+    text-transform: uppercase;
+}
+.left{
+    display: none;
 
 }
-div{
-    display: inline;
-    
+.right{
+    background-color: rgb(128, 128, 128);
+        
+}
+a{
+    background-color: rgb(192, 190, 190);
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    text-align-last: center;
 }
