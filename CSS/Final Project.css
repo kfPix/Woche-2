@@ -24,11 +24,9 @@ h2{
 
 section{
     width: 30%;
-    display: table-cell;
     margin-right: 5%;
 }
 details{
-    
     font-style: italic;
 }
 summary{
