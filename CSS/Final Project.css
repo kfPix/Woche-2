@@ -25,14 +25,12 @@ h2{
 section{
     width: 30%;
     display: table-cell;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 details{
-    display: table-cell;
     font-style: italic;
 }
 summary{
-    display: table-cell;
     font-style: normal;
 }
 footer{
