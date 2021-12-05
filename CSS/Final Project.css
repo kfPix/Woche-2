@@ -56,8 +56,6 @@ a:hover{
 }
 ul{
     list-style-type: circle;
-}
-.selfimplementedIcon{
     list-style-image: square url("../favicon-256x256.png") ;
 }
 ol{
