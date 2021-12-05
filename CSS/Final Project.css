@@ -47,9 +47,12 @@ a{
     padding: 4px;
     text-decoration: none;
     border-style: inset;
+    border-color: lavender;
+    margin: 0 auto;
 }
 a:hover{
     background-color: #7a6f6f;
+    color: #ffffff;
 }
 ul{
     list-style-type: circle;
@@ -65,4 +68,5 @@ button{
     width: 20%;
     color-scheme: inherit;
     border-style: inset;
+    border-color: lavender;
 }
