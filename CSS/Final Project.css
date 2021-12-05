@@ -38,10 +38,19 @@ footer{
 img{
     width: 10%;
 }
+a{
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0006cc;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
 ul{
     list-style-image: ;
     list-style-type: circle;
 }
 ol{
-    
+
 }
