@@ -38,3 +38,10 @@ footer{
 img{
     width: 10%;
 }
+ul{
+    list-style-image: ;
+    list-style-type: circle;
+}
+ol{
+    
+}
