@@ -58,7 +58,7 @@ ul{
     list-style-type: circle;
 }
 .selfimplementedIcon{
-    list-style-image: ;
+    list-style-image: square url("../favicon-256x256.png") ;
 }
 ol{
     list-style-type: georgian;
