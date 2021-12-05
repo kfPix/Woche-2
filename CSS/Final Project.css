@@ -42,10 +42,13 @@ a{
     display: block;
     font-weight: bold;
     color: #ffffff;
-    background-color: #0006cc;
+    background-color: #555bfa;
     text-align: center;
     padding: 4px;
     text-decoration: none;
+}
+a:hover{
+    background-color: #7a6f6f;
 }
 ul{
     list-style-image: ;
