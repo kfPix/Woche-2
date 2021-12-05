@@ -46,6 +46,7 @@ a{
     text-align: center;
     padding: 4px;
     text-decoration: none;
+    border-style: inset;
 }
 a:hover{
     background-color: #7a6f6f;
