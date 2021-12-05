@@ -52,10 +52,17 @@ a:hover{
     background-color: #7a6f6f;
 }
 ul{
-    list-style-image: ;
     list-style-type: circle;
+}
+.selfimplementedIcon{
+    list-style-image: ;
 }
 ol{
     list-style-type: georgian;
 
+}
+button{
+    width: 20%;
+    color-scheme: inherit;
+    border-style: inset;
 }
