@@ -32,9 +32,6 @@ details{
 summary{
     font-style: normal;
 }
-footer{
-
-}
 img{
     width: 10%;
 }
@@ -55,7 +52,6 @@ a:hover{
     color: #555bfa;
 }
 ul{
-    list-style-type: circle;
     list-style-image: square url("../favicon-256x256.png") ;
 }
 ol{
