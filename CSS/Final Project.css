@@ -36,20 +36,7 @@ img{
     width: 10%;
 }
 a{
-    display: block;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #555bfa;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    border-style: inset;
-    border-color: lavender;
-    margin: 0 auto;
-}
-a:hover{
-    background-color: #7a6f6f;
-    color: #555bfa;
+
 }
 ul{
     list-style-image: square url("../favicon-256x256.png") ;
@@ -60,7 +47,30 @@ ol{
 }
 button{
     width: 20%;
-    color-scheme: inherit;
-    border-style: inset;
     border-color: lavender;
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #555bfa;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    border-style: inset;
+    margin: 0 auto;
+}
+button:hover{
+    background-color: #7a6f6f;
+    color: #555bfa;
+}
+.browserCapability{
+    width: 100%;
+
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+
+
+
+
 }
