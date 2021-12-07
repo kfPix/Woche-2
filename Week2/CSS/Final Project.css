@@ -1,0 +1,76 @@
+body{
+    background: #B3B3B3;
+    font-size: 150%;
+    margin: 4%;
+    display: table;
+}
+header{
+    background: #666666;
+    text-align: center;
+    padding: 15px;
+}
+h1{
+    color: #FFFFFF;
+}
+nav{
+    font-variant:small-caps;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: #666666;
+    background: #00B7ea;
+}
+
+section{
+    width: 30%;
+    margin-right: 5%;
+}
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+}
+img{
+    width: 10%;
+}
+a{
+
+}
+ul{
+    list-style-image: square url("../favicon-256x256.png") ;
+}
+ol{
+    list-style-type: georgian;
+
+}
+button{
+    width: 20%;
+    border-color: lavender;
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #555bfa;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    border-style: inset;
+    margin: 0 auto;
+}
+button:hover{
+    background-color: #7a6f6f;
+    color: #555bfa;
+}
+.browserCapability{
+    width: 100%;
+
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+
+
+
+
+}
