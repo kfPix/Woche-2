@@ -39,8 +39,11 @@ details{
 summary{
     font-style: normal;
 }
-img{
+#WD4E-Logo{
     width: 10%;
+}
+#shortcuts{
+    width: 100%;
 }
 a{
 
