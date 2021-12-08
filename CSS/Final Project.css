@@ -10,7 +10,8 @@ header{
 }
 header, footer{
     border-radius: 20%;
-    background: -moz-radial-gradient(#B3B3B3 0%, #000000, 100%);
+    background: #B3B3B3;
+    background: -moz-radial-gradient(top,#B3B3B3 0%, #000000, 100%);
     background: -webkit-radial-gradient(#B3B3B3 0%, #000000, 100%);
     background: -o-radial-gradient(#B3B3B3 0%, #000000, 100%);
     background: radial-gradient(#B3B3B3 0%, #000000, 100%);
