@@ -10,10 +10,10 @@ header{
 }
 header, footer{
     border-radius: 20%;
-    background: -moz-radial-gradient(#B3B3B3 0%, #666666, 100%);
-    background: -webkit-radial-gradient(#B3B3B3 0%, #666666, 100%);
-    background: -o-radial-gradient(#B3B3B3 0%, #666666, 100%);
-    background: radial-gradient(#B3B3B3 0%, #666666, 100%);
+    background: -moz-radial-gradient(#B3B3B3 0%, #000000, 100%);
+    background: -webkit-radial-gradient(#B3B3B3 0%, #000000, 100%);
+    background: -o-radial-gradient(#B3B3B3 0%, #000000, 100%);
+    background: radial-gradient(#B3B3B3 0%, #000000, 100%);
 }
 h1{
     color: #FFFFFF;
@@ -58,7 +58,7 @@ button{
     display: block;
     font-weight: bold;
     color: #ffffff;
-    background-color: #555bfa;
+    background-color:  #00B7ea;
     text-align: center;
     padding: 4px;
     text-decoration: none;
