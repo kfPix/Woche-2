@@ -5,11 +5,12 @@ body{
     display: table;
 }
 header{
-    background: #666666;
     text-align: center;
     padding: 15px;
+
 }
 header, footer{
+    border-radius: 20%;
     background: -moz-radial-gradient(#B3B3B3 0%, #666666, 100%);
     background: -webkit-radial-gradient(#B3B3B3 0%, #666666, 100%);
     background: -o-radial-gradient(#B3B3B3 0%, #666666, 100%);
