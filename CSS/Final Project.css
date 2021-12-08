@@ -34,6 +34,7 @@ section{
     display: inline-block;
     width: 30%;
     margin-right: 2%;
+    vertical-align: top;
 }
 details{
     font-style: italic;
