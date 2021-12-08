@@ -7,7 +7,6 @@ body{
 header{
     text-align: center;
     padding: 15px;
-
 }
 header, footer{
     border-radius: 20%;
@@ -43,6 +42,7 @@ img{
     width: 10%;
 }
 a{
+    color: #ffffff;
 
 }
 ul{
