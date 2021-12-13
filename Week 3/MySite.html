@@ -16,7 +16,7 @@
             </nav>
         </header>
         <main>
-            <section>
+            <section class="half">
                 <h2>Lieblingsessen</h2>
                 <ul>
                     <li>Selbstgemachtes Müsli</li>
@@ -25,19 +25,23 @@
                     <li>Indische Gerichte</li>
                 </ul>
             </section>
-            <section>
+            <section class="half">
                 <h2>Erfolge</h2>
-                <p>Fortschritt in diesem Kurs (100%)<meter value="1.0">100%</meter></p>
-                <p>Fortschritt in Persönlichkeitsentwicklung (40%)<meter value="0.4">40%</meter> (Da geht noch was!)</p>
-                <p>Erreichung der Lebensziele (75%)<meter value="0.7">70%</meter> (Carpe diem!)</p>
+                <p><label for="successes">Fortschritt in diesem Kurs (100%)</label><progress value="1.0">100%</progress></p>
+                <p><label for="successes">Fortschritt in Persönlichkeitsentwicklung (40%)</label><progress value="0.4">40%</progress> (Da geht noch was!)</p>
+                <p><label for="successes">Erreichung der Lebensziele (75%)</label><progress value="0.7">70%</progress> (Carpe diem!)</p>
             </section>
-            <section>
+            <section class="whole">
                 <details>
-                    <summary><h2>Mehr über mich</h2></summary>
-                    <p>Meine Kindheit Ich bin in Greifswald (Vorpommern) aufgewachsen, seit 2011 in Kiel und ausgebildete Krankenschwester, die nun Wirtschaftsingenieurwesen an der Cau studiert.</p>
+                    <summary>Mehr über mich</summary>
+                    <p><h3>Meine Kindheit:</h3> Ich bin in Greifswald (Vorpommern) aufgewachsen, seit 2011 in Kiel und ausgebildete Krankenschwester, die nun Wirtschaftsingenieurwesen an der Cau studiert.</p>
+                    <p><h3>Meine Freunde:</h3></p>
+                    <p><h3>Meine Familie:</h3></p>
+                    <p><h3>Meine Stärken:</h3></p>
+                    <p><h3>Meine Schwächen:</h3></p>
                 </details>
             </section>
-            <section class="browserCapability">
+            <section class="half">
                 <h2>Buttons</h2>
                 <ul> 
                     <li>Links e.g</li>
@@ -52,29 +56,32 @@
                         </ul>
                         </li>
                 </ul>
+            </section>
+            <section class="half">
                 <h2>Second Section</h2>
                 <ul>
                     <li>Hellööö</li>
-                    <li>Seconde Element</li>
+                    <li>Second Element</li>
                     <li>Third Element</li>
                 </ul>
             </section>
-            <div>
+            <section class="whole">
                 <h2>Styling Lists</h2>
                 <ol><h3>Ordered List</h3>
                 <li>My Favorite Games and Hobbies:
                     <ul>
-                        <li></li>
+                        <li>Table foosball</li>
+                        <li>Darts</li>
+                        <li>Mario Kart</li>
+                        <li>...</li>
                     </ul>
                 </li>
             </ol>
-            </div>
+            </section>
         </main>
         <footer>
             <p><img id="WD4E-Logo" src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo WD4E">This page was created by Karolin Frank & Colleen van Lent. To learn more about web design, visit <button><a href="https://www.coursera.org/learn/web-development">Intro to Web Design</a></button>.</p>
             <img id="shortcuts" src="https://code.visualstudio.com/assets/docs/getstarted/tips-and-tricks/KeyboardReferenceSheet.png" alt="ShortcutsVisualStudioCode">
-
-
         </footer>
     </body>
 </html>

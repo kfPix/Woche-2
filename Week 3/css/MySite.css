@@ -1,23 +1,25 @@
 body{
+    color: aliceblue;
     /* background: #B3B3B3; */
-    background: #797878;
-   	background: -moz-linear-gradient(top, #797878 0%, #a5c2ca 100%);
-    background: -webkit-linear-gradient(#797878 0%, #a5c2ca 100%);
-    background: -o-linear-gradient(#797878 0%, #a5c2ca 100%);
-    background: linear-gradient(#797878 0%, #a5c2ca 100%);
+
+    background: #990909;
+   	background: -moz-linear-gradient(top, #ca0f0f 0%, #a5c2ca 100%);
+    background: -webkit-linear-gradient(#8b1212 0%, #a5c2ca 100%);
+    background: -o-linear-gradient(#290909 0%, #a5c2ca 100%);
+    background: linear-gradient(#020008 90%, #a5c2ca 100%);
     font-size: 150%;
     margin: 4%;
     display: table;
     
 }
 header{
-    background: radial-gradient(#000000 0%, #797878 100%);
+    background: radial-gradient(#ffffff 10%, #000000 90%);
     text-align: center;
-    padding: 15px;
+    padding: 30px;
     border-radius: 20%;
 }
 h1{
-    color: #FFFFFF;
+    color: #000000;
 }
 nav{
     font-variant:small-caps;
@@ -25,19 +27,40 @@ nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
-    color: #797878;
-    background: #00B7ea;
+    font-size: xx-large;
+    color: #000000;
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 15%;
 }
 
-section{
-    width: 30%;
-    margin-right: 5%;
+.half{
+    display:block;
+    width: 45%;
+    margin-right: 5px;
+    float: left;
 }
+
+.whole{
+    display: inline-block;
+    width: 90%;
+}
+
 details{
+    display: inline-block;
+    width: 100%;
     font-style: italic;
+
 }
 summary{
     font-style: normal;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #000000;
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 15%;
+
 }
 #WD4E-Logo{
     width: 10%;
@@ -46,41 +69,30 @@ summary{
     width: 100%;
 }
 a{
-
+    color: rgb(255, 255, 255);
 }
 ul{
     list-style-image: square url("../favicon-256x256.png") ;
 }
-ol{
-    list-style-type: georgian;
-
+ol li{
+    color: aliceblue;
 }
+
 button{
+    display: table-cell;
     width: 20%;
     border-color: lavender;
-    display: inline-block;
+    display: -webkit-inline-box;
     font-weight: bold;
-    color: #ffffff;
-    background-color: #555bfa;
+    color: #f5f3f5;
+    background-color: #000000;
     text-align: center;
     padding: 4px;
     text-decoration: none;
     border-style: inset;
-    margin-right: 5px;
+    margin-right: 10;
 }
 button:hover{
-    background-color: #7a6f6f;
-    color: #555bfa;
-}
-.browserCapability{
-    width: 100%;
-
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    -o-column-count: 2;
-    column-count: 2;
-
-
-
-
+    background-color: #fbfbfb;
+    color: #f8f8fb;
 }
