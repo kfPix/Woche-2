@@ -1,6 +1,35 @@
 /* Style the sheet using the properties color, background-color, text-align, text-transform, and/or display */
+body{
+    padding: 1%;
+    margin: 0px 1%;
+    background-color: rgb(128, 128, 128);
+}
 header{
     background-color: rgb(180, 179, 179);
+    padding: 20px;
+    background-image: url("../images/flywheel.jpg");
+}
+a{
+    color: rgb(0, 0, 0);
+    text-align-last: center;
+}
+nav{
+    text-align: center;
+}
+nav>a{
+    display:inline-block;
+    width: 15%;
+    margin: 0 2%;
+    border-radius: 10%;
+    text-decoration: none;
+    padding: 2%;
+    background-color: rgba(255, 255, 240, 0.2);
+}
+.active{
+    background-color: rgba(255, 255, 240, 0.8);
+}
+main{
+    display: flex;
 }
 h1{
     color: rgb(255, 255, 255);
@@ -8,20 +37,28 @@ h1{
     text-align-last: center;
 }
 h2{
-    color: rgb(5, 5, 153);
+    display: block;
+    font-weight: bold;
     text-transform: uppercase;
 }
 .left{
-    display: none;
 
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: seagreen;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left img{
+    width:70%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
 }
 .right{
-    background-color: rgb(128, 128, 128);
-        
-}
-a{
-    background-color: rgb(192, 190, 190);
-    color: rgb(0, 0, 0);
-    font-size: 100%;
-    text-align-last: center;
+    text-align: start;
+    width: 75%;
+    padding: 5%;    
 }
