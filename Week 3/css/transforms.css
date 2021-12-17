@@ -1,0 +1,20 @@
+.square{
+    width: 30%;
+    height:50%;
+    background-color: aquamarine;
+    /* move x pixels to the left/right and y pixels up/down */
+    transition-delay: 5s;
+    transform: translate(200,150);
+}
+.square:hover{
+    transform:rotate(30deg);
+
+}
+.square:active{
+    /* changes width factor x and height f. y */
+    transform:scale(2,3);
+}
+.toSkew{
+    /* rotate degrees along x and y angle */
+    transform:skew(30deg,15deg);
+}
