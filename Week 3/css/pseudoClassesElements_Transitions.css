@@ -2,7 +2,8 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(177, 177, 177);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    padding: 0;
+    margin:0;
 }
 header, footer {
     background-color: rgb(65, 64, 64, 0.6);
@@ -17,10 +18,10 @@ h4 {
 .tr {
     color: #4b0082;
     background: #b0c4de;
-    line-height: 60%;
+    line-height: 80%;
     text-align: center;
-    width: 84%;
-    height: 66%;
+    width: 100%;
+    height: 100%;
     border-radius: 10%;
     transition-property: color, width, background, border-radius;
     transition-duration: .5s;
@@ -30,9 +31,9 @@ h4 {
 .tr:active {
     color: #000000;
     width: 110%;
-    background: #00DDB3;
-    
+    background: #00DDB3;    
 }
+
 .tr:hover {
     color:#ffffff;
     width: 120%;
@@ -41,6 +42,8 @@ h4 {
 }
 
 a {
-    color: rgb(255, 50, 50);
-
+    color: rgb(88, 18, 18);
+    background-color: rgb(177, 177, 177,0.8);
+    width: 20%;
+    height: 30px;
 }
