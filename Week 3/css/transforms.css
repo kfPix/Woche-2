@@ -15,13 +15,31 @@
     /* rotate degrees along x and y angle */
     transform:skew(30deg,15deg); 
 }
-/* .square:active{
-    --move x pixels to the left/right and y pixels up/down--
+ .square:focus{
+    /*move x pixels to the left/right and y pixels up/down*/
     transition-delay: 3s;
     transform: translate(150,150);
-    --rotate degrees along x and y angle--
+    /*rotate degrees along x and y angle*/
     transform:skew(30deg,15deg);    
-} */
+}
+.square:active{
+    transform: scale(1,2);
+}
+.square:target{
+    transform: scale(2,1);
+}
 .matrix{
+    /* combination of all 2D transforms (abbreviation) */
     transform: matrix();
+}
+.box {
+    width: 90%;
+    height: 200px;
+    background: #2db34a;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.box:hover {
+    background: #ff7b29;
 }
