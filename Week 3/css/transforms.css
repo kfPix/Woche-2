@@ -9,14 +9,19 @@
     transform:rotate(30deg,0deg);
     /* changes width factor x and height f. y */
     transform:scale(2,3);
-}
-.square:active{
+    transform: translate(150,150);
     /* move x pixels to the left/right and y pixels up/down */
     transition-delay: 3s;
-    transform: translate(150,150);
     /* rotate degrees along x and y angle */
-    transform:skew(30deg,15deg);    
+    transform:skew(30deg,15deg); 
 }
+/* .square:active{
+    --move x pixels to the left/right and y pixels up/down--
+    transition-delay: 3s;
+    transform: translate(150,150);
+    --rotate degrees along x and y angle--
+    transform:skew(30deg,15deg);    
+} */
 .matrix{
     transform: matrix();
 }
