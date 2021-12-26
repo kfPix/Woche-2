@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(177, 177, 177);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header, footer {
+    background-color: rgb(65, 64, 64, 0.6);
+    margin: o auto;
+    padding: 10%;
+}
+h4 {
+    display: inline;
+    color: rgb(255, 50, 50);
+}
+
+.tr {
+    color: #4b0082;
+    background: #b0c4de;
+    line-height: 60%;
+    text-align: center;
+    width: 84%;
+    height: 66%;
+    border-radius: 10%;
+    transition-property: color, width, background, border-radius;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+}
+.tr:active {
+    color: #000000;
+    width: 110%;
+    background: #00DDB3;
+    
+}
+.tr:hover {
+    color:#ffffff;
+    width: 120%;
+    background:#2D31B3;
+    border-radius: 50%;
+}
+
+a {
+    color: rgb(255, 50, 50);
+
+}
