@@ -2,11 +2,11 @@
     width: 30%;
     height:50%;
     background-color: aquamarine;
-    margin: 100px;
+    margin: 20%;
 
 }
 .square:hover{
-    transform:rotate(30deg);
+    transform:rotate(30deg,0deg);
     /* changes width factor x and height f. y */
     transform:scale(2,3);
 }
@@ -14,12 +14,8 @@
     /* move x pixels to the left/right and y pixels up/down */
     transition-delay: 3s;
     transform: translate(150,150);
-
-    
-}
-.toSkew{
     /* rotate degrees along x and y angle */
-    transform:skew(30deg,15deg);
+    transform:skew(30deg,15deg);    
 }
 .matrix{
     transform: matrix();
