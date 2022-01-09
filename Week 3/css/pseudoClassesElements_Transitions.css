@@ -16,12 +16,15 @@ h4 {
 }
 
 .tr {
-    color: #4b0082;
+    color: #000000;
     background: #b0c4de;
-    line-height: 80%;
-    text-align: center;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    /* vertical adjustment */
+    justify-content: center;
+    /* horizontal adjustment */
+    align-content: center;
+    width: 50%;
+    height: 200px;
     border-radius: 10%;
     transition-property: color, width, background, border-radius;
     transition-duration: .5s;
@@ -29,7 +32,7 @@ h4 {
     transition-delay: .5s;
 }
 .tr:active {
-    color: #000000;
+    color: #4b0082;
     width: 110%;
     background: #00DDB3;    
 }

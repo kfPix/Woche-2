@@ -33,13 +33,46 @@
     transform: matrix();
 }
 .box {
-    width: 90%;
+    width: 50%;
     height: 200px;
     background: #2db34a;
-    transition-property: background;
-    transition-duration: 1s;
-    transition-timing-function: linear;
+    /* prefixes for accessibility neccessary */
+        -webkit-transition-property: background, border-radius, padding;
+       -moz-transition-property: background, border-radius, padding;
+         -o-transition-property: background, border-radius, padding;
+            transition-property: background, border-radius, padding;
+    -webkit-transition-duration: 0.5s,1s,1.5s;
+       -moz-transition-duration: 0.5s,1s,1.5s;
+         -o-transition-duration: 0.5s,1s,1.5s;
+            transition-duration: 0.5s,1s,1.5s;
+    -webkit-transition-timing-function: linear;
+       -moz-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
 }
 .box:hover {
     background: #ff7b29;
+    border-radius: 20%;
+    padding: 20%;
+}
+ul{
+    display: table;
+    table-layout: auto;
+}
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
 }
