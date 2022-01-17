@@ -1,0 +1,18 @@
+.square{
+    border-width: 3px;
+    border-radius: 10%;
+    border-color: cornsilk;
+    border-style: ridge;
+    background-color: rgb(91, 91, 236);
+    transition: linear;
+    
+}
+
+.square:active{
+
+}
+
+/* 
+- Impressum: hensche.de/impressum-generator.jsp
+- Kontaktdaten:
+*/
